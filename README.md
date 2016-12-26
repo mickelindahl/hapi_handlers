@@ -6,7 +6,7 @@ handlers for updating a database through
 available to the server. 
 
 ## Installation
-npm install --save hapi-handlers
+npm install --save hapi-waterline-handlers
 
 ## Usage
 
