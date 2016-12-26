@@ -1,4 +1,4 @@
-# Hapi handlers
+# Hapi waterline handlers
 
 A [hapi](https://www.npmjs.com/package/hapi) with that makes a couple of useful 
 handlers for updating a database through 
