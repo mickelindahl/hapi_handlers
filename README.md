@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/mickelindahl/hapi_waterline_handlers.svg?branch=master)](https://travis-ci.org/mickelindahl/hapi_waterline_handlers)
-
+[![Coverage Status](https://coveralls.io/repos/github/mickelindahl/hapi_waterline_handlers/badge.svg?branch=master)](https://coveralls.io/github/mickelindahl/hapi_waterline_handlers?branch=master)
 # Hapi waterline handlers
 
 A [hapi](https://www.npmjs.com/package/hapi) with that makes a couple of useful 
