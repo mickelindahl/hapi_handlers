@@ -4,7 +4,8 @@
   "description": "A collection of usefull route handlers to interact with a database for hapijs server",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/lab -l lib/test/index.js",
+    "test": "node_modules/.bin/lab -r lcov | ./node_modules/.bin/coveralls",
+    "test2": "./node_modules/.bin/lab -l lib/test/index.js",
     "test-cov-html": "./node_modules/.bin/lab -m 10000 -l -r html -o coverage.html lib/test/index.js "
   },
   "repository": {
@@ -27,6 +28,7 @@
   "homepage": "https://github.com/mickelindahl/hapi_waterline_handlers#readme",
   "devDependencies": {
     "code": "^4.0.0",
+    "coveralls": "^2.11.15",
     "debug": "^2.5.2",
     "hapi": "^16.0.2",
     "hapi-waterline": "^0.1.2",
