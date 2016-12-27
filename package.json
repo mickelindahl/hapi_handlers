@@ -2,7 +2,7 @@
   "name": "hapi-waterline-handlers",
   "version": "0.0.1",
   "description": "A collection of usefull route handlers to interact with a database for hapijs server",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node_modules/.bin/lab -r lcov lib/test/index.js | ./node_modules/.bin/coveralls",
     "test2": "./node_modules/.bin/lab -l lib/test/index.js",
