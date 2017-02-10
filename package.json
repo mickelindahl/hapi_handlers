@@ -1,5 +1,5 @@
 {
-  "name": "hapi-waterline-handlers",
+  "name": "hapi-handlers-waterline",
   "version": "0.0.1",
   "description": "A collection of usefull route handlers to interact with a database for hapijs server",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mickelindahl/hapi_waterline_handlers.git"
+    "url": "git+ssh://git@github.com/mickelindahl/hapi_handlers_waterline.git"
   },
   "keywords": [
     "handler",
@@ -19,14 +19,18 @@
     "create",
     "update",
     "get",
-    "delete"
+    "delete",
+    "sails",
+    "waterline",
+    "hapi",
+    "hapijs"
   ],
   "author": "Mikael Lindahl <mikael.lindahl.07@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mickelindahl/hapi_waterline_handlers/issues"
+    "url": "https://github.com/mickelindahl/hapi_handlers_waterline/issues"
   },
-  "homepage": "https://github.com/mickelindahl/hapi_waterline_handlers#readme",
+  "homepage": "https://github.com/mickelindahl/hapi_handlers_waterline#readme",
   "devDependencies": {
     "code": "^4.0.0",
     "coveralls": "^2.11.15",
