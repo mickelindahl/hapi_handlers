@@ -37,45 +37,98 @@ server.register( {
 ```
 
 - `options` Object or list of objects with the following keys
-  - `status_code` Function to print out error logs
-  
+  - `log` Function to print out error logs
+
 ## Methods
 
-### `create(options)`
-Returns a handler for creating a database entry
+The `handler` is attached to hapijs `server.methods`
+
+<a name="server.methods.module_handler"></a>
+
+## handler
+
+* [handler](#server.methods.module_handler)
+    * [~create()](#server.methods.module_handler..create) ⇒
+    * [~update()](#server.methods.module_handler..update) ⇒
+    * [~get()](#server.methods.module_handler..get) ⇒
+    * [~destroy()](#server.methods.module_handler..destroy) ⇒
+
+<a name="server.methods.module_handler..create"></a>
+
+### handler~create() ⇒
+Returns a handler for creating a database entry/entries with data in
+ `request.payload` where request is a [hapijs request](https://hapijs.com/api#requests)
+ object
 
 - `options` an object with the following keys.
-  - `credentialAddToPayload` A credential key to
   - `model` (string) table to update
-   add to payload at creation.
+  - `ext` function handler extensions functions `function(request, models, done)`
+  where request is a [hapi request](https://hapijs.com/api#requests)
+  object, models is  [sails create](http://sailsjs.com/documentation/reference/waterline-orm/models/create)
+  return models object and done is promise resolve should be called one completion.
+    - `onPreHandler` evoked before handler
+    - `onPreReply` evoked before reply. `done` shoudl be called with preferred reply payload.
 
-### `update(options)`
-Returns a handler for updating a database entry
- 
-- `options` an object with the following keys.
-  - `model` (string) table to update
-  - `uniqueId` A id that uniquely identifies a database entry
- 
-###`getByCredential(options)`
-Returns a handler for retrieving all entries belonging to a credential key
- 
-- `options` an object with the following keys.
-  - `credentialAddToPayload` A credential key to add to payload at creation.
-  - `model` (string) table to update
+**Kind**: inner method of <code>[handler](#server.methods.module_handler)</code>  
+**Returns**: function(request, reply)  
+**Api**: public  
+<a name="server.methods.module_handler..update"></a>
 
-###`get(options)`
-Returns a handler for retrieving a single database entry
- 
-- `options` an object with the following keys.
-  - `model` (string) table to update
-  - `uniqueId` A id that uniquely identifies a database entry
- 
-### `delete(options)`
-Returns a handler for deleting a single a database entry
+### handler~update() ⇒
+Returns a handler for updating a database with data in
+ `request.payload` where request is a [hapijs request](https://hapijs.com/api#requests)
+ object
 
 - `options` an object with the following keys.
-  - `uniqueId` A id that uniquely identifies a database entry
- 
+  - `ext` function handler extensions functions `function(request, models, done)`
+  where request is a [hapijs request](https://hapijs.com/api#requests)
+  object, models is  [sails create](http://sailsjs.com/documentation/reference/waterline-orm/models/create)
+  return models object and done is promise resolve should be called one completion.
+    - `onPreHandler` evoked before handler
+    - `onPreReply` evoked before reply. `done` shoudl be called with preferred reply payload.
+  -`getCriteria` function `function(request)` that returns a
+ [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)
+ used to update models in the database
+  - `model` (string) table to update
+
+**Kind**: inner method of <code>[handler](#server.methods.module_handler)</code>  
+**Returns**: function(request, reply)  
+**Api**: public  
+<a name="server.methods.module_handler..get"></a>
+
+### handler~get() ⇒
+Returns a handler used to retrieve entry/entries from a database
+
+- `options` an object with the following keys.
+  - `ext` function handler extensions functions `function(request, models, done)`
+  where request is a [hapi request](https://hapijs.com/api#requests)
+  object, models is  [sails create](http://sailsjs.com/documentation/reference/waterline-orm/models/create)
+  return models object and done is promise resolve should be called one completion.
+    - `onPreHandler` evoked before handler
+    - `onPreReply` evoked before reply. `done` shoudl be called with preferred reply payload.
+  -`getCriteria` function `function(request)` that returns a
+ [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)
+ used to get models from the database
+  criteria
+  - `model` (string) table to update
+
+**Kind**: inner method of <code>[handler](#server.methods.module_handler)</code>  
+**Returns**: function(request, reply)  
+**Api**: public  
+<a name="server.methods.module_handler..destroy"></a>
+
+### handler~destroy() ⇒
+Delete a database entry/entries
+
+- `options` an object with the following keys.
+  -`getCriteria` function `function(request)` that returns a
+ [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)
+ used to delete models in the database
+  - `model` (string) table to delete entries in
+
+**Kind**: inner method of <code>[handler](#server.methods.module_handler)</code>  
+**Returns**: function(request, reply)  
+**Api**: public  
 ## Test
 `npm run-script test`
 
