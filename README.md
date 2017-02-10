@@ -62,11 +62,11 @@ Returns a handler for creating a database entry/entries with data in
 - `options` an object with the following keys.
   - `model` (string) table to update
   - `ext` function handler extensions functions `function(request, models, done)`
-  where request is a [hapi request](https://hapijs.com/api#requests)
+  where request is a [hapijs request](https://hapijs.com/api#requests)
   object, models is  [sails create](http://sailsjs.com/documentation/reference/waterline-orm/models/create)
   return models object and done is promise resolve should be called one completion.
     - `onPreHandler` evoked before handler
-    - `onPreReply` evoked before reply. `done` shoudl be called with preferred reply payload.
+    - `onPreReply` evoked before reply. `done` should be called with preferred reply payload.
 
 **Kind**: inner method of <code>[handler](#server.methods.module_handler)</code>  
 **Returns**: function(request, reply)  
@@ -84,7 +84,7 @@ Returns a handler for updating a database with data in
   object, models is  [sails create](http://sailsjs.com/documentation/reference/waterline-orm/models/create)
   return models object and done is promise resolve should be called one completion.
     - `onPreHandler` evoked before handler
-    - `onPreReply` evoked before reply. `done` shoudl be called with preferred reply payload.
+    - `onPreReply` evoked before reply. `done` should be called with preferred reply payload.
   -`getCriteria` function `function(request, done)` that calls done
  [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)
  used to update models in the database
@@ -100,11 +100,11 @@ Returns a handler used to retrieve entry/entries from a database
 
 - `options` an object with the following keys.
   - `ext` function handler extensions functions `function(request, models, done)`
-  where request is a [hapi request](https://hapijs.com/api#requests)
+  where request is a [hapijs request](https://hapijs.com/api#requests)
   object, models is  [sails create](http://sailsjs.com/documentation/reference/waterline-orm/models/create)
   return models object and done is promise resolve should be called one completion.
     - `onPreHandler` evoked before handler
-    - `onPreReply` evoked before reply. `done` shoudl be called with preferred reply payload.
+    - `onPreReply` evoked before reply. `done` should be called with preferred reply payload.
   -`getCriteria` function `function(request, done)` that calls done
  [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)
  used to get models from the database
