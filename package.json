@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "node_modules/.bin/lab -r lcov lib/test/index.js | ./node_modules/.bin/coveralls",
-    "test2": "./node_modules/.bin/lab -l lib/test/index.js",
+    "test-local": "./node_modules/.bin/lab -l lib/test/index.js",
     "test-cov-html": "./node_modules/.bin/lab -m 10000 -l -r html -o lib/test/coverage.html lib/test/index.js ",
     "jsdoc-to-markdown": "jsdoc2md --template README.hbs --files ./lib/index.js > README.md"
   },
