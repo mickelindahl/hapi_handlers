@@ -86,7 +86,7 @@ Returns a handler for updating a database with data in
   return models object and done is promise resolve should be called one completion.
     - `onPreHandler` evoked before handler
     - `onPreReply` evoked before reply. `done` shoudl be called with preferred reply payload.
-  -`getCriteria` function `function(request)` that returns a
+  -`getCriteria` function `function(request, done)` that calls done
  [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)
  used to update models in the database
   - `model` (string) table to update
@@ -106,10 +106,9 @@ Returns a handler used to retrieve entry/entries from a database
   return models object and done is promise resolve should be called one completion.
     - `onPreHandler` evoked before handler
     - `onPreReply` evoked before reply. `done` shoudl be called with preferred reply payload.
-  -`getCriteria` function `function(request)` that returns a
+  -`getCriteria` function `function(request, done)` that calls done
  [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)
  used to get models from the database
-  criteria
   - `model` (string) table to update
 
 **Kind**: inner method of <code>[handler](#server.methods.module_handler)</code>  
@@ -121,7 +120,7 @@ Returns a handler used to retrieve entry/entries from a database
 Delete a database entry/entries
 
 - `options` an object with the following keys.
-  -`getCriteria` function `function(request)` that returns a
+  -`getCriteria` function `function(request, done)` that calls done
  [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)
  used to delete models in the database
   - `model` (string) table to delete entries in
