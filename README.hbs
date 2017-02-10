@@ -1,14 +1,13 @@
-[![Build Status](https://travis-ci.org/mickelindahl/hapi_waterline_handlers.svg?branch=master)](https://travis-ci.org/mickelindahl/hapi_waterline_handlers)
-[![Coverage Status](https://coveralls.io/repos/github/mickelindahl/hapi_waterline_handlers/badge.svg?branch=master)](https://coveralls.io/github/mickelindahl/hapi_waterline_handlers?branch=master)
-# Hapi waterline handlers
+[![Build Status](https://travis-ci.org/mickelindahl/hapi_handlers_waterline.svg?branch=master)](https://travis-ci.org/mickelindahl/hapi_waterline_handlers)
+[![Coverage Status](https://coveralls.io/repos/github/mickelindahl/hapi_handlers_waterline/badge.svg?branch=master)](https://coveralls.io/github/mickelindahl/hapi_waterline_handlers?branch=master)
+# Hapi handlers waterline
 
 A [hapi](https://www.npmjs.com/package/hapi) with that makes a couple of useful 
-handlers for updating a database through 
+handlers available to the server for updating database using
 [hapi-waterline](https://www.npmjs.com/package/hapi-waterline) OCR
-available to the server. 
 
 ## Installation
-npm install --save hapi-waterline-handlers
+npm install --save hapi-handlers-waterline
 
 ## Usage
 ```js
