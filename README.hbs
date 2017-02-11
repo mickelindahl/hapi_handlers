@@ -3,7 +3,7 @@
 # Hapi handlers waterline
 
 A [hapi](https://www.npmjs.com/package/hapi) with that makes a couple of useful 
-handlers available to the server for updating database using
+handlers available to the server for updating tables in databases using
 [hapi-waterline](https://www.npmjs.com/package/hapi-waterline) OCR
 
 ## Installation
