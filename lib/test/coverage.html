@@ -563,7 +563,7 @@
           <div class="failures">0</div>
           <div class="skipped">0</div>
           <div class="test-count">8</div>
-          <div class="duration">227</div>
+          <div class="duration">311</div>
       </div>
       <div id="filters">
           <input type="checkbox" checked="" onchange="filter(this)" value="success" id="show-success">
@@ -588,56 +588,56 @@
               <td class="test-title">hapi handlers Test create with credentials to add
                   
               </td>
-              <td class="test-duration">70</td>
+              <td class="test-duration">102</td>
           </tr>
           <tr class="show hapi_handlers success">
               <td class="test-id">2</td>
               <td class="test-title">hapi handlers Test create throw error
                   
               </td>
-              <td class="test-duration">20</td>
+              <td class="test-duration">29</td>
           </tr>
           <tr class="show hapi_handlers success">
               <td class="test-id">3</td>
               <td class="test-title">hapi handlers Test update
                   
               </td>
-              <td class="test-duration">35</td>
+              <td class="test-duration">49</td>
           </tr>
           <tr class="show hapi_handlers success">
               <td class="test-id">4</td>
               <td class="test-title">hapi handlers Test update not a unique id
                   
               </td>
-              <td class="test-duration">16</td>
+              <td class="test-duration">23</td>
           </tr>
           <tr class="show hapi_handlers success">
               <td class="test-id">5</td>
               <td class="test-title">hapi handlers Test get
                   
               </td>
-              <td class="test-duration">21</td>
+              <td class="test-duration">31</td>
           </tr>
           <tr class="show hapi_handlers success">
               <td class="test-id">6</td>
               <td class="test-title">hapi handlers Test get not found
                   
               </td>
-              <td class="test-duration">21</td>
+              <td class="test-duration">20</td>
           </tr>
           <tr class="show hapi_handlers success">
               <td class="test-id">7</td>
               <td class="test-title">hapi handlers Test delete
                   
               </td>
-              <td class="test-duration">22</td>
+              <td class="test-duration">29</td>
           </tr>
           <tr class="show hapi_handlers success">
               <td class="test-id">8</td>
               <td class="test-title">hapi handlers Test delete not found
                   
               </td>
-              <td class="test-duration">20</td>
+              <td class="test-duration">25</td>
           </tr>
           </tbody>
       </table>
@@ -646,8 +646,8 @@
         <h1>Code Coverage Report</h1>
         <div class="stats high">
             <div class="percentage">100%</div>
-            <div class="sloc">428</div>
-            <div class="hits">428</div>
+            <div class="sloc">418</div>
+            <div class="hits">418</div>
             <div class="misses">0</div>
         </div>
         <div id="files">
@@ -655,8 +655,8 @@
                 <h2 id="lib/index.js">lib/index.js</h2>
                 <div class="stats high">
                     <div class="percentage">100%</div>
-                    <div class="sloc">206</div>
-                    <div class="hits">206</div>
+                    <div class="sloc">209</div>
+                    <div class="hits">209</div>
                     <div class="misses">0</div>
                 </div>
                 <table>
@@ -709,7 +709,7 @@
                             <td class="line" data-tooltip>7</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>1</td>
-                            <td class="source">const debug &#x3D; require( &#x27;debug&#x27; )( &#x27;hapi_handlers:lib:index.js&#x27; );</td>
+                            <td class="source">const debug &#x3D; require( &#x27;debug&#x27; )( &#x27;hapi_handlers_waterline:lib:index.js&#x27; );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>8</td>
@@ -793,7 +793,7 @@
                             <td class="line" data-tooltip>21</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   where request is a [hapi request](https://hapijs.com/api#requests)</td>
+                            <td class="source"> *   where request is a [hapijs request](https://hapijs.com/api#requests)</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>22</td>
@@ -817,7 +817,7 @@
                             <td class="line" data-tooltip>25</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *     - &#x60;onPreReply&#x60; evoked before reply. &#x60;done&#x60; shoudl be called with preferred reply payload.</td>
+                            <td class="source"> *     - &#x60;onPreReply&#x60; evoked before reply. &#x60;done&#x60; should be called with preferred reply payload.</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>26</td>
@@ -1099,7 +1099,7 @@
                             <td class="line" data-tooltip>72</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        }</td>
+                            <td class="source">        }else {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>73</td>
@@ -1111,19 +1111,19 @@
                             <td class="line" data-tooltip>74</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>1</td>
-                            <td class="source">        done( )</td>
+                            <td class="source">            done( )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>75</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">        }</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>76</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">    } ).then( () &#x3D;&gt; {</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>77</td>
@@ -1135,7 +1135,7 @@
                             <td class="line" data-tooltip>78</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        return _handler( request, options )</td>
+                            <td class="source">    } ).then( () &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>79</td>
@@ -1147,7 +1147,7 @@
                             <td class="line" data-tooltip>80</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">    } ).then( models &#x3D;&gt; {</td>
+                            <td class="source">        return _handler( request, options )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>81</td>
@@ -1159,25 +1159,25 @@
                             <td class="line" data-tooltip>82</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        return new Promise( done &#x3D;&gt; {</td>
+                            <td class="source">    } ).then( models &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>83</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            if ( options.onPreReply ) {</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>84</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">        return new Promise( done &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>85</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>4</td>
-                            <td class="source">                options.onPreReply( request, models, done )</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">            if ( options.onPreReply ) {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>86</td>
@@ -1188,8 +1188,8 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>87</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            }</td>
+                            <td class="hits" data-tooltip>4</td>
+                            <td class="source">                options.onPreReply( request, models, done )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>88</td>
@@ -1200,8 +1200,8 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>89</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>6</td>
-                            <td class="source">            done( models )</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">            }else{</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>90</td>
@@ -1212,26 +1212,26 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>91</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">        } )</td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">                done( models )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>92</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">    } ).then( response &#x3D;&gt; {</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>93</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">            }</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>94</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        _reply( reply, response )</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>95</td>
@@ -1243,25 +1243,25 @@
                             <td class="line" data-tooltip>96</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">    } ).catch( function ( err ) {</td>
+                            <td class="source">        } )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>97</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">    } ).then( response &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>98</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        _log( err );</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>99</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">        reply( Boom.badImplementation( err.message ) );</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">        _reply( reply, response )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>100</td>
@@ -1273,7 +1273,7 @@
                             <td class="line" data-tooltip>101</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">    } );</td>
+                            <td class="source">    } ).catch( function ( err ) {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>102</td>
@@ -1285,307 +1285,307 @@
                             <td class="line" data-tooltip>103</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">}</td>
+                            <td class="source">        _log( err );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>104</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">        reply( Boom.badImplementation( err.message ) );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>105</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">/**</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>106</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *  Returns a handler for updating a database with data in</td>
+                            <td class="source">    } );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>107</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *  &#x60;request.payload&#x60; where request is a [hapijs request](https://hapijs.com/api#requests)</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>108</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *  object</td>
+                            <td class="source">}</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>109</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>110</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> * - &#x60;options&#x60; an object with the following keys.</td>
+                            <td class="source">/**</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>111</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   - &#x60;ext&#x60; function handler extensions functions &#x60;function(request, models, done)&#x60;</td>
+                            <td class="source"> *  Returns a handler for updating a database with data in</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>112</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   where request is a [hapijs request](https://hapijs.com/api#requests)</td>
+                            <td class="source"> *  &#x60;request.payload&#x60; where request is a [hapijs request](https://hapijs.com/api#requests)</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>113</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   object, models is  [sails create](http://sailsjs.com/documentation/reference/waterline-orm/models/create)</td>
+                            <td class="source"> *  object</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>114</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   return models object and done is promise resolve should be called one completion.</td>
+                            <td class="source"> *</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>115</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *     - &#x60;onPreHandler&#x60; evoked before handler</td>
+                            <td class="source"> * - &#x60;options&#x60; an object with the following keys.</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>116</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *     - &#x60;onPreReply&#x60; evoked before reply. &#x60;done&#x60; shoudl be called with preferred reply payload.</td>
+                            <td class="source"> *   - &#x60;ext&#x60; function handler extensions functions &#x60;function(request, models, done)&#x60;</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>117</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   -&#x60;getCriteria&#x60; function &#x60;function(request, done)&#x60; that calls done</td>
+                            <td class="source"> *   where request is a [hapijs request](https://hapijs.com/api#requests)</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>118</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *  [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)</td>
+                            <td class="source"> *   object, models is  [sails create](http://sailsjs.com/documentation/reference/waterline-orm/models/create)</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>119</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *  used to update models in the database</td>
+                            <td class="source"> *   return models object and done is promise resolve should be called one completion.</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>120</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   - &#x60;model&#x60; (string) table to update</td>
+                            <td class="source"> *     - &#x60;onPreHandler&#x60; evoked before handler</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>121</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *</td>
+                            <td class="source"> *     - &#x60;onPreReply&#x60; evoked before reply. &#x60;done&#x60; should be called with preferred reply payload.</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>122</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> * @return function(request, reply)</td>
+                            <td class="source"> *   -&#x60;getCriteria&#x60; function &#x60;function(request, done)&#x60; that calls done</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>123</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> * @api public</td>
+                            <td class="source"> *  [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>124</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> */</td>
+                            <td class="source"> *  used to update models in the database</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>125</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">function update( options ) {</td>
+                            <td class="source"> *   - &#x60;model&#x60; (string) table to update</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>126</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">    return ( request, reply ) &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"> *</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>127</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source"> * @return function(request, reply)</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>128</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        let _handler &#x3D; ( request, options ) &#x3D;&gt; {</td>
+                            <td class="source"> * @api public</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>129</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source"> */</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>130</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            debug( &#x27;update&#x27;, request.payload );</td>
+                            <td class="source">function update( options ) {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>131</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">    return ( request, reply ) &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>132</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">            return new Promise( done &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>133</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">        let _handler &#x3D; ( request, options ) &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>134</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                options.getCriteria( request, done )</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>135</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">            debug( &#x27;update&#x27;, request.payload );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>136</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            } ).then(criteria&#x3D;&gt; {</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>137</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">            return new Promise( done &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>138</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                var Model &#x3D; request.server.getModel( options.model );</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>139</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">                options.getCriteria( request, done )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>140</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">                return Model.update( criteria, request.payload )</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>141</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            })</td>
+                            <td class="source">            } ).then(criteria&#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>142</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        };</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>143</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">                debug( &#x27;update&#x27;, criteria );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>144</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">        let _reply &#x3D; ( reply, response ) &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>145</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">                var Model &#x3D; request.server.getModel( options.model );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>146</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            reply( response );</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>147</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">                return Model.update( criteria, request.payload )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>148</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        };</td>
+                            <td class="source">            })</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>149</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">        };</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>150</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">        return _do( _handler, _reply, request, reply, options, &#x27;update&#x27; )</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>151</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">        let _reply &#x3D; ( reply, response ) &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>152</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">    }</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>153</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">}</td>
+                            <td class="source">            reply( response );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>154</td>
@@ -1597,271 +1597,271 @@
                             <td class="line" data-tooltip>155</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">/**</td>
+                            <td class="source">        };</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>156</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *  Returns a handler used to retrieve entry/entries from a database</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>157</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"> *</td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">        return _do( _handler, _reply, request, reply, options, &#x27;update&#x27; )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>158</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> * - &#x60;options&#x60; an object with the following keys.</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>159</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   - &#x60;ext&#x60; function handler extensions functions &#x60;function(request, models, done)&#x60;</td>
+                            <td class="source">    }</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>160</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   where request is a [hapi request](https://hapijs.com/api#requests)</td>
+                            <td class="source">}</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>161</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   object, models is  [sails create](http://sailsjs.com/documentation/reference/waterline-orm/models/create)</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>162</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   return models object and done is promise resolve should be called one completion.</td>
+                            <td class="source">/**</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>163</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *     - &#x60;onPreHandler&#x60; evoked before handler</td>
+                            <td class="source"> *  Returns a handler used to retrieve entry/entries from a database</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>164</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *     - &#x60;onPreReply&#x60; evoked before reply. &#x60;done&#x60; shoudl be called with preferred reply payload.</td>
+                            <td class="source"> *</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>165</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   -&#x60;getCriteria&#x60; function &#x60;function(request, done)&#x60; that calls done</td>
+                            <td class="source"> * - &#x60;options&#x60; an object with the following keys.</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>166</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *  [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)</td>
+                            <td class="source"> *   - &#x60;ext&#x60; function handler extensions functions &#x60;function(request, models, done)&#x60;</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>167</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *  used to get models from the database</td>
+                            <td class="source"> *   where request is a [hapijs request](https://hapijs.com/api#requests)</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>168</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   - &#x60;model&#x60; (string) table to update</td>
+                            <td class="source"> *   object, models is  [sails create](http://sailsjs.com/documentation/reference/waterline-orm/models/create)</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>169</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *</td>
+                            <td class="source"> *   return models object and done is promise resolve should be called one completion.</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>170</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> * @return function(request, reply)</td>
+                            <td class="source"> *     - &#x60;onPreHandler&#x60; evoked before handler</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>171</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> * @api public</td>
+                            <td class="source"> *     - &#x60;onPreReply&#x60; evoked before reply. &#x60;done&#x60; should be called with preferred reply payload.</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>172</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> */</td>
+                            <td class="source"> *   -&#x60;getCriteria&#x60; function &#x60;function(request, done)&#x60; that calls done</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>173</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">function get( options ) {</td>
+                            <td class="source"> *  [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>174</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">    return ( request, reply ) &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"> *  used to get models from the database</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>175</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source"> *   - &#x60;model&#x60; (string) table to update</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>176</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        let _handler &#x3D; ( request, options ) &#x3D;&gt; {</td>
+                            <td class="source"> *</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>177</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source"> * @return function(request, reply)</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>178</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            debug( &#x27;get&#x27;, request.payload );</td>
+                            <td class="source"> * @api public</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>179</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source"> */</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>180</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">            return new Promise( done &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">function get( options ) {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>181</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">    return ( request, reply ) &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>182</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                options.getCriteria( request, done )</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>183</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">        let _handler &#x3D; ( request, options ) &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>184</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            } ).then(criteria&#x3D;&gt; {</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>185</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">            debug( &#x27;get&#x27;, request.payload );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>186</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                let Model &#x3D; request.server.getModel( options.model );</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>187</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">            return new Promise( done &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>188</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">                return Model.find( criteria ).then( models &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>189</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">                options.getCriteria( request, done )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>190</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                    if ( models.length &#x3D;&#x3D; 0 ) {</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>191</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">                        return Boom.notFound();</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">            } ).then(criteria&#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>192</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                    }</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>193</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">                let Model &#x3D; request.server.getModel( options.model );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>194</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">                    return models;</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>195</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">                });</td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">                return Model.find( criteria ).then( models &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>196</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            })</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>197</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        };</td>
+                            <td class="source">                    if ( models.length &#x3D;&#x3D; 0 ) {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>198</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">                        return Boom.notFound();</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>199</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">        let _reply &#x3D; ( reply, response ) &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">                    }</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>200</td>
@@ -1872,50 +1872,50 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>201</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            reply( response );</td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">                    return models;</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>202</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">                });</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>203</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        };</td>
+                            <td class="source">            })</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>204</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">        };</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>205</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">        return _do( _handler, _reply, request, reply, options, &#x27;get&#x27; )</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>206</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">        let _reply &#x3D; ( reply, response ) &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>207</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">    }</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>208</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">}</td>
+                            <td class="source">            reply( response );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>209</td>
@@ -1927,163 +1927,163 @@
                             <td class="line" data-tooltip>210</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">/**</td>
+                            <td class="source">        };</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>211</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *  Delete a database entry/entries</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>212</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"> *</td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">        return _do( _handler, _reply, request, reply, options, &#x27;get&#x27; )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>213</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> * - &#x60;options&#x60; an object with the following keys.</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>214</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   -&#x60;getCriteria&#x60; function &#x60;function(request, done)&#x60; that calls done</td>
+                            <td class="source">    }</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>215</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *  [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)</td>
+                            <td class="source">}</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>216</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *  used to delete models in the database</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>217</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *   - &#x60;model&#x60; (string) table to delete entries in</td>
+                            <td class="source">/**</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>218</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> *</td>
+                            <td class="source"> *  Delete a database entry/entries</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>219</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> * @return function(request, reply)</td>
+                            <td class="source"> *</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>220</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> * @api public</td>
+                            <td class="source"> * - &#x60;options&#x60; an object with the following keys.</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>221</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"> */</td>
+                            <td class="source"> *   -&#x60;getCriteria&#x60; function &#x60;function(request, done)&#x60; that calls done</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>222</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">function destroy( options ) {</td>
+                            <td class="source"> *  [waterline criteria](https://github.com/balderdashy/waterline-docs/blob/master/queries/query-language.md)</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>223</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">    return ( request, reply ) &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"> *  used to delete models in the database</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>224</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source"> *   - &#x60;model&#x60; (string) table to delete entries in</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>225</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        let _handler &#x3D; ( request, options ) &#x3D;&gt; {</td>
+                            <td class="source"> *</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>226</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source"> * @return function(request, reply)</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>227</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            debug( &#x27;destroy&#x27;, request.payload );</td>
+                            <td class="source"> * @api public</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>228</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source"> */</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>229</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">            return new Promise( done &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">function destroy( options ) {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>230</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">    return ( request, reply ) &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>231</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                options.getCriteria( request, done )</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>232</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">        let _handler &#x3D; ( request, options ) &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>233</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            } ).then(criteria&#x3D;&gt; {</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>234</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">            debug( &#x27;destroy&#x27;, request.payload );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>235</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                let Model &#x3D; request.server.getModel( options.model );</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>236</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">            return new Promise( done &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>237</td>
@@ -2094,8 +2094,8 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>238</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">                return Model.destroy( criteria ).then( models &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">                options.getCriteria( request, done )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>239</td>
@@ -2107,19 +2107,19 @@
                             <td class="line" data-tooltip>240</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                    if ( models.length &#x3D;&#x3D; 0 ) {</td>
+                            <td class="source">            } ).then(criteria&#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>241</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">                        return Boom.notFound();</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>242</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                    }</td>
+                            <td class="source">                let Model &#x3D; request.server.getModel( options.model );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>243</td>
@@ -2130,38 +2130,38 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>244</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">                    return models;</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>245</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">                return Model.destroy( criteria ).then( models &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>246</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                } )</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>247</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            })</td>
+                            <td class="source">                    if ( models.length &#x3D;&#x3D; 0 ) {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>248</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">                        return Boom.notFound();</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>249</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        };</td>
+                            <td class="source">                    }</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>250</td>
@@ -2172,8 +2172,8 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>251</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">        let _reply &#x3D; ( reply, response ) &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">                    return models;</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>252</td>
@@ -2185,49 +2185,49 @@
                             <td class="line" data-tooltip>253</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            reply( response ).code( 200 );</td>
+                            <td class="source">                } )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>254</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">            })</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>255</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        };</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>256</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">        };</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>257</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">        return _do( _handler, _reply, request, reply, options, &#x27;delete&#x27; )</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>258</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">        let _reply &#x3D; ( reply, response ) &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>259</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">    }</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>260</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">}</td>
+                            <td class="source">            reply( response ).code( 200 );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>261</td>
@@ -2238,8 +2238,8 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>262</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">exports.register &#x3D; function ( server, options, next ) {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">        };</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>263</td>
@@ -2250,8 +2250,8 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>264</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">    _log &#x3D; options.log || console.error;</td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">        return _do( _handler, _reply, request, reply, options, &#x27;delete&#x27; )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>265</td>
@@ -2262,179 +2262,221 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>266</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>8</td>
-                            <td class="source">    server.method( [</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">    }</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>267</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        {</td>
+                            <td class="source">}</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>268</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            name: &#x27;handler.create&#x27;,</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>269</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            method: create,</td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">exports.register &#x3D; function ( server, options, next ) {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>270</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            options: {}</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>271</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        },</td>
+                            <td class="source">    _log &#x3D; options.log || console.error;</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>272</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        {</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>273</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            name: &#x27;handler.update&#x27;,</td>
+                            <td class="hits" data-tooltip>8</td>
+                            <td class="source">    server.method( [</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>274</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            method: update,</td>
+                            <td class="source">        {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>275</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            options: {}</td>
+                            <td class="source">            name: &#x27;handler.create&#x27;,</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>276</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        },</td>
+                            <td class="source">            method: create,</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>277</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        {</td>
+                            <td class="source">            options: {}</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>278</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            name: &#x27;handler.get&#x27;,</td>
+                            <td class="source">        },</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>279</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            method: get,</td>
+                            <td class="source">        {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>280</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            options: {}</td>
+                            <td class="source">            name: &#x27;handler.update&#x27;,</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>281</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        },</td>
+                            <td class="source">            method: update,</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>282</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        {</td>
+                            <td class="source">            options: {}</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>283</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            name: &#x27;handler.delete&#x27;,</td>
+                            <td class="source">        },</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>284</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            method: destroy,</td>
+                            <td class="source">        {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>285</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            options: {}</td>
+                            <td class="source">            name: &#x27;handler.get&#x27;,</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>286</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        }] );</td>
+                            <td class="source">            method: get,</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>287</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">            options: {}</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>288</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>8</td>
-                            <td class="source">    next();</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">        },</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>289</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">};</td>
+                            <td class="source">        {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>290</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">            name: &#x27;handler.delete&#x27;,</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>291</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">exports.register.attributes &#x3D; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">            method: destroy,</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>292</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">    name: &#x27;handler&#x27;,</td>
+                            <td class="source">            options: {}</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>293</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">    version: &#x27;1.0.0&#x27;</td>
+                            <td class="source">        }] );</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>294</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">};</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>295</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip>8</td>
+                            <td class="source">    next();</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>296</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">};</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>297</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>298</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">exports.register.attributes &#x3D; {</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>299</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">    name: &#x27;handler&#x27;,</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>300</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">    version: &#x27;1.0.0&#x27;</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>301</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">};</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>302</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
@@ -2446,8 +2488,8 @@
                 <h2 id="lib/test/index.js">lib/test/index.js</h2>
                 <div class="stats high">
                     <div class="percentage">100%</div>
-                    <div class="sloc">165</div>
-                    <div class="hits">165</div>
+                    <div class="sloc">152</div>
+                    <div class="hits">152</div>
                     <div class="misses">0</div>
                 </div>
                 <table>
@@ -3148,121 +3190,121 @@
                             <td class="line" data-tooltip>115</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            //if (flag&#x3D;&#x3D;&#x27;without&#x27;){</td>
+                            <td class="source">        }</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>116</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            //</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>117</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            //    delete options.credentialsAddToPayload</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>118</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            //</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>119</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            //} else if (flag&#x3D;&#x3D;&#x27;empty&#x27;){</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>120</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            //</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>121</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            //    options.credentials&#x3D;{}</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>122</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            //</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>123</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            //}</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>124</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">        }</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>125</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>126</td>
+                            <td class="line" data-tooltip>117</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>4</td>
                             <td class="source">        serverPromise( options ).then( server &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>127</td>
+                            <td class="line" data-tooltip>118</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>128</td>
+                            <td class="line" data-tooltip>119</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source">            request.server &#x3D; server;</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>129</td>
+                            <td class="line" data-tooltip>120</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>130</td>
+                            <td class="line" data-tooltip>121</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>4</td>
                             <td class="source">            server.getModel( &#x27;test&#x27; ).create( { stuff: 1, user: 123 } ).then( ()&#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>131</td>
+                            <td class="line" data-tooltip>122</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>132</td>
+                            <td class="line" data-tooltip>123</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source">                let call &#x3D; server.methods.handler[handlerKey]( options );</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>133</td>
+                            <td class="line" data-tooltip>124</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>134</td>
+                            <td class="line" data-tooltip>125</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>4</td>
                             <td class="source">                call( request, reply );</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>126</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>127</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">            } )</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>128</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>129</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">        } )</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>130</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">    }</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>131</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">}</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>132</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>133</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">function notFound(handlerKey){</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>134</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip>2</td>
+                            <td class="source">    return ( done ) &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>135</td>
@@ -3274,223 +3316,223 @@
                             <td class="line" data-tooltip>136</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            } )</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>137</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>138</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">        } )</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>139</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">    }</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>140</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">}</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>141</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>142</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">function notFound(handlerKey){</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>143</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>2</td>
-                            <td class="source">    return ( done ) &#x3D;&gt; {</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>144</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>145</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
                             <td class="source">        options.uniqueId&#x3D;&#x27;id&#x27;;</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>146</td>
+                            <td class="line" data-tooltip>137</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>2</td>
                             <td class="source">        request.params&#x3D;{id:1};</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>147</td>
+                            <td class="line" data-tooltip>138</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>148</td>
+                            <td class="line" data-tooltip>139</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>2</td>
                             <td class="source">        let reply&#x3D;(error)&#x3D;&gt;{</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>149</td>
+                            <td class="line" data-tooltip>140</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>150</td>
+                            <td class="line" data-tooltip>141</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source">            code.expect(error.message).to.equal(&#x27;Not Found&#x27;);</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>151</td>
+                            <td class="line" data-tooltip>142</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>2</td>
                             <td class="source">            request.server.app.adapter.teardown( done ); // fails otherwise</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>152</td>
+                            <td class="line" data-tooltip>143</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>2</td>
                             <td class="source">            return {</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>153</td>
+                            <td class="line" data-tooltip>144</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source">                code:()&#x3D;&gt;{}</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>154</td>
+                            <td class="line" data-tooltip>145</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source">            }</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>155</td>
+                            <td class="line" data-tooltip>146</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>156</td>
+                            <td class="line" data-tooltip>147</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source">        };</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>157</td>
+                            <td class="line" data-tooltip>148</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>158</td>
+                            <td class="line" data-tooltip>149</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>2</td>
                             <td class="source">        serverPromise( options ).then( server &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>159</td>
+                            <td class="line" data-tooltip>150</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>160</td>
+                            <td class="line" data-tooltip>151</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source">            request.server &#x3D; server;</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>161</td>
+                            <td class="line" data-tooltip>152</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>162</td>
+                            <td class="line" data-tooltip>153</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>2</td>
                             <td class="source">            let call&#x3D;server.methods.handler[handlerKey](options);</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>163</td>
+                            <td class="line" data-tooltip>154</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>164</td>
+                            <td class="line" data-tooltip>155</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>2</td>
                             <td class="source">            call(request, reply);</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>165</td>
+                            <td class="line" data-tooltip>156</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>166</td>
+                            <td class="line" data-tooltip>157</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source">        } )</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>167</td>
+                            <td class="line" data-tooltip>158</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source">    }</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>168</td>
+                            <td class="line" data-tooltip>159</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source">}</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>169</td>
+                            <td class="line" data-tooltip>160</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>170</td>
+                            <td class="line" data-tooltip>161</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source">function throwError(handlerKey){</td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>171</td>
+                            <td class="line" data-tooltip>162</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
-                            <td class="line" data-tooltip>172</td>
+                            <td class="line" data-tooltip>163</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>1</td>
                             <td class="source">    return done  &#x3D;&gt; {</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>164</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>165</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">        delete options.uniqueId;</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>166</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">        request.params&#x3D;{ user:&#x27;123&#x27;};</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>167</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">        //         options.credentialsAddToPayload&#x3D;&#x27;user&#x27;;</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>168</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>169</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">        let reply&#x3D;(error)&#x3D;&gt;{</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>170</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>171</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">            code.expect(error.message).to.equal(&#x27;error&#x27;);</td>
+                        </tr>
+                        <tr class="hit">
+                            <td class="line" data-tooltip>172</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">            request.server.app.adapter.teardown( done ); // fails otherwise</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>173</td>
@@ -3502,19 +3544,19 @@
                             <td class="line" data-tooltip>174</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        delete options.uniqueId;</td>
+                            <td class="source">        };</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>175</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">        request.params&#x3D;{ user:&#x27;123&#x27;};</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>176</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">        //         options.credentialsAddToPayload&#x3D;&#x27;user&#x27;;</td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">        serverPromise( options ).then( server &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>177</td>
@@ -3525,8 +3567,8 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>178</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">        let reply&#x3D;(error)&#x3D;&gt;{</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">            request.server &#x3D; server;</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>179</td>
@@ -3537,26 +3579,26 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>180</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            code.expect(error.message).to.equal(&#x27;error&#x27;);</td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">            server.getModel(&#x27;test&#x27;).create({stuff:1, user:123}).then(()&#x3D;&gt;{</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>181</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">            request.server.app.adapter.teardown( done ); // fails otherwise</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>182</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
                         </tr>
                         <tr class="hit">
+                            <td class="line" data-tooltip>182</td>
+                            <td class="lint empty"></td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">                server.getModel&#x3D;()&#x3D;&gt;{</td>
+                        </tr>
+                        <tr class="hit">
                             <td class="line" data-tooltip>183</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        };</td>
+                            <td class="source">                    return {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>184</td>
@@ -3567,50 +3609,50 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>185</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">        serverPromise( options ).then( server &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">                        create:()&#x3D;&gt;{return Promise.reject({message:&#x27;error&#x27;})},</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>186</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">                        definition:{id:{unique:true}, user:{unique:true}}</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>187</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            request.server &#x3D; server;</td>
+                            <td class="source">                    }</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>188</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">                };</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>189</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">            server.getModel(&#x27;test&#x27;).create({stuff:1, user:123}).then(()&#x3D;&gt;{</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>190</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">                let call&#x3D;server.methods.handler[handlerKey]();</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>191</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                server.getModel&#x3D;()&#x3D;&gt;{</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>192</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">                    return {</td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">                call(request, reply);</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>193</td>
@@ -3622,85 +3664,85 @@
                             <td class="line" data-tooltip>194</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                        create:()&#x3D;&gt;{return Promise.reject({message:&#x27;error&#x27;})},</td>
+                            <td class="source">            })</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>195</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                        //destroy:()&#x3D;&gt;{return Promise.reject({message:&#x27;error&#x27;})},</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>196</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                        //findOne:()&#x3D;&gt;{return Promise.reject({message:&#x27;error&#x27;})},</td>
+                            <td class="source">        } )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>197</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                        //find:()&#x3D;&gt;{return Promise.reject({message:&#x27;error&#x27;})},</td>
+                            <td class="source">    }</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>198</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                        //update:()&#x3D;&gt;{return Promise.reject({message:&#x27;error&#x27;})},</td>
+                            <td class="source">}</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>199</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                        definition:{id:{unique:true}, user:{unique:true}}</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>200</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                    }</td>
+                            <td class="source">function noCriteria(handlerKey){</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>201</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">                };</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>202</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">    return  done  &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>203</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">                let call&#x3D;server.methods.handler[handlerKey]();</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>204</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">        delete options.getCriteria;</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>205</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>1</td>
-                            <td class="source">                call(request, reply);</td>
+                            <td class="source">        options.log&#x3D;console.error;</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>206</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">        options.uniqueId&#x3D;&#x27;stuff&#x27;;</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>207</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            })</td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">        request.params&#x3D;{ id:1};</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>208</td>
@@ -3711,74 +3753,74 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>209</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">        } )</td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">        let reply&#x3D;(error)&#x3D;&gt;{</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>210</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">    }</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>211</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">}</td>
+                            <td class="source">            code.expect(error.message).to.equal(&#x27;Need to provide options.getCriteria callback!!!&#x27;);</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>212</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">            request.server.app.adapter.teardown( done ); // fails otherwise</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>213</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">function noCriteria(handlerKey){</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>214</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">        };</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>215</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">    return  done  &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>216</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">        serverPromise( options ).then( server &#x3D;&gt; {</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>217</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        delete options.getCriteria;</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>218</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">        options.log&#x3D;console.error;</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">            request.server &#x3D; server;</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>219</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">        options.uniqueId&#x3D;&#x27;stuff&#x27;;</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>220</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip>1</td>
-                            <td class="source">        request.params&#x3D;{ id:1};</td>
+                            <td class="source">            server.getModel(&#x27;test&#x27;).create({stuff:1, user:123}).then(()&#x3D;&gt;{</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>221</td>
@@ -3789,8 +3831,8 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>222</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">        let reply&#x3D;(error)&#x3D;&gt;{</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">                let call&#x3D;server.methods.handler[handlerKey](options);</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>223</td>
@@ -3801,50 +3843,50 @@
                         <tr class="hit">
                             <td class="line" data-tooltip>224</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            code.expect(error.message).to.equal(&#x27;Need to provide options.getCriteria callback!!!&#x27;);</td>
+                            <td class="hits" data-tooltip>1</td>
+                            <td class="source">                call(request, reply);</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>225</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">            request.server.app.adapter.teardown( done ); // fails otherwise</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>226</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">            })</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>227</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">        };</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>228</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">        } )</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>229</td>
                             <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">        serverPromise( options ).then( server &#x3D;&gt; {</td>
+                            <td class="hits" data-tooltip></td>
+                            <td class="source">    } ;</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>230</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
+                            <td class="source">}</td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>231</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
-                            <td class="source">            request.server &#x3D; server;</td>
+                            <td class="source"></td>
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>232</td>
@@ -3854,84 +3896,6 @@
                         </tr>
                         <tr class="hit">
                             <td class="line" data-tooltip>233</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">            server.getModel(&#x27;test&#x27;).create({stuff:1, user:123}).then(()&#x3D;&gt;{</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>234</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>235</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">                let call&#x3D;server.methods.handler[handlerKey](options);</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>236</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>237</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip>1</td>
-                            <td class="source">                call(request, reply);</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>238</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>239</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">            })</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>240</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>241</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">        } )</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>242</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">    } ;</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>243</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source">}</td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>244</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>245</td>
-                            <td class="lint empty"></td>
-                            <td class="hits" data-tooltip></td>
-                            <td class="source"></td>
-                        </tr>
-                        <tr class="hit">
-                            <td class="line" data-tooltip>246</td>
                             <td class="lint empty"></td>
                             <td class="hits" data-tooltip></td>
                             <td class="source"></td>
