@@ -1,6 +1,6 @@
 {
   "name": "hapi-handlers-waterline",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collection of usefull route handlers to interact with tables in databases for hapijs server",
   "main": "lib/index.js",
   "scripts": {
